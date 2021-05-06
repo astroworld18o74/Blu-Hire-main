@@ -1,0 +1,82 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+#insidenav{
+    background: dodgerblue;
+    color: white;
+    font-size: 13px;
+}
+nav a{
+    font-size: 16px;
+    font-family: ubuntu;
+    color: white;
+}
+nav ul li {
+    font-size: 16px;
+    font-family: ubuntu;
+}
+nav ul  li.active{
+    background: #428bca;
+}
+table.table{
+    background: transparent;
+}
+td.tbold{
+    font-weight: bold;
+    width: 200px;
+}
+table{
+    background: transparent;
+     font-size: 16px;
+}
+label{
+    width: inherit;
+    background: transparent;
+}
+div.jumbotron{
+    color: #d22ab6;
+    align-items: center;
+    padding-left: 5%;
+}
+.thumbnail {
+    width: auto;
+    height: auto;
+    border: 3px;
+    border-radius: 5px;
+   background: transparent;
+
+}
+
+.thumbnail img {
+    display: block;
+    width: 200;
+    height: 200;
+    margin-bottom: 5px;
+}
+
+.form-horizontal{
+    
+        width: 480px;
+        height: 700px;
+        position: relative;
+        margin: auto;
+        background: #fff;
+        padding: 10px;
+        overflow: hidden;
+        align-items: center;
+}
+
+.col-sm-4{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
